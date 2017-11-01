@@ -1,6 +1,7 @@
 <?php
 
-// changes text of excerpt
+
+// changes text of excerpt read more
 function modify_read_more_link() {
     return '<a class="more-link" href="' . get_permalink() . '">By Ogdens Hammer what savings!</a>';
 }
