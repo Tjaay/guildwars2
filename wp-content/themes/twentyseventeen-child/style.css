@@ -9,6 +9,24 @@ Version: 0.1.0
 */
 
 
+
+.site-branding {
+    display:none;
+}
+
+.main-navigation a:hover {
+    background-color:#53cdef;
+    color:white;
+}
+
+.main-navigation a {
+    padding:20px;
+    border:none;
+    margin:0;
+}
+
+
+
 /*removes Proudly powered by Wordpress line*/
 .site-info {display:none;}
 
