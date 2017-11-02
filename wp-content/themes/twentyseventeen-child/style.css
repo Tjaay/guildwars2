@@ -14,6 +14,10 @@ Version: 0.1.0
 
 
 
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: white;
+    background-color: #0099cc;
+}
 
 .main-navigation a:hover {
     background-color:#53cdef;
@@ -36,13 +40,13 @@ label {font-weight: 600;}
 
 /*changes colour on contact form button*/
 button, input[type="button"], input[type="submit"] {
-    background-color: #666;}
+    background-color: #0099cc}
 
 /* changes color of social navigation buttons */
     .social-navigation a {
-    background-color: #595630;
-}
+    background-color: #0099cc;}
+
 /* changes color of widgets headers */
 h2.widget-title {
-    color: orange;
+    color: #0099cc;
 }
