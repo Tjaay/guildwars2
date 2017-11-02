@@ -8,11 +8,33 @@ Template: twentyseventeen
 Version: 0.1.0
 */
 
-.site-content-contain .wrap {
+.entry-footer .edit-link a.post-edit-link {
+    background-color:#0099cc!important;
+}
+
+/* changes h5 and h1 colors to white */
+h5, h1 {
+    color:white!important;
+}
+
+/* change color of posts titles */
+.entry-title a{
+    color:#00ccff!important;
+    text-decoration-color:white!important;
+}
+
+/* change color of widgets titles */
+.widget-title {
+    color:#00ccff!important;
+}
+
+/* change opacity of site-content */
+.site-content .wrap {
     padding-top:20px;
-    background-color: rgba( 0, 0, 0, 0.4) 
+    background-color: rgba( 0, 0, 0, 0.8) 
     }
 
+/* change background image of site */
 .site-content {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
@@ -27,7 +49,7 @@ body {
 
 /* changes color of sites links */
  a {
-     color:#565656;
+     color:white!important;
  }
 
 /* changes active of naivagtion menu buttons background to darker blue */
