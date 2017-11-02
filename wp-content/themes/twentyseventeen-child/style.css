@@ -8,6 +8,16 @@ Template: twentyseventeen
 Version: 0.1.0
 */
 
+/* fixes background image for jumbo mac screen */
+@media (min-width: 1281px) {
+  .site-content {
+    background-image: url("background.jpg");
+    background-size:cover;
+  }
+    
+  
+}
+
 .entry-footer .edit-link a.post-edit-link {
     background-color:#0099cc!important;
 }
